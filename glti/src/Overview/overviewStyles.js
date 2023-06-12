@@ -73,7 +73,7 @@ export const useStyles = createUseStyles({
         color: "#FEF4F4",
         fontSize: "14px",
         fontWeight: "600",
-        transition: "background-color 200ms",
+        transition: "background-color 300ms",
         '&:hover': {
             cursor: "pointer",
             backgroundColor: "#e1a014"
