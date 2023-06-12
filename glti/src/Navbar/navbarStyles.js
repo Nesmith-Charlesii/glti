@@ -12,24 +12,29 @@ export const useStyles = createUseStyles({
         display: 'flex',
         alignItems: "center",
         justifyContent: "space-between",
-        height: "62px",
+        height: "45px",
         backgroundColor: "#1E0C30",
-        padding: "0 60px",
-        fontFamily: "Raleway",
+        padding: "0 152px",
+        fontFamily: "Arial",
     },
     logo: {
         fontWeight: 700,
-        color: "#FEF4F4"
+        color: "#FEF4F4",
     },
     navLinks: {
-        width: "240px",
+        width: "320px",
         display: "flex",
         justifyContent: "space-between",
         '& a': {
-            fontSize: "16px",
+            fontSize: "14px",
             color: "#FEF4F4",
             textDecoration: "none",
-            fontWeight: 600
+            fontWeight: 500
+        }
+    },
+    searchIcon: {
+        '&:hover': {
+            cursor: "pointer"
         }
     }
 })
