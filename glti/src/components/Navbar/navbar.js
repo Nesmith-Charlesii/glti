@@ -11,7 +11,7 @@ const Navbar = () => {
                 <h4>GLTI</h4>
             </div>
             <div className={classes.navLinks}>
-                <a href='/overview'>Overview</a>
+                <a href='/'>Overview</a>
                 <a href='/content'>Content</a>
                 <a href='/tools'>Tools</a>
                 <img className={classes.searchIcon} src={SearchIcon} alt="search-icon" />

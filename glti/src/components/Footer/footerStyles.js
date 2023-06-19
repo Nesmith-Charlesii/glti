@@ -7,6 +7,7 @@ export const useStyles = createUseStyles({
         backgroundColor: "#1E0C30",
         position: "fixed",
         bottom: "0px",
+        zIndex: 1,
         color: "#FFFFFF",
         fontFamily: "Raleway",
         fontSize: "14px",

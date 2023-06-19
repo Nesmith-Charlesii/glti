@@ -1,6 +1,6 @@
 import React from 'react';
 import { useStyles } from './overviewStyles';
-import DataTransfer from './assets/data_transfer.svg';
+import DataTransfer from './assets/glti_hero_image.svg';
 
 const Home = () => {
     const classes = useStyles();
@@ -10,7 +10,7 @@ const Home = () => {
                 <div className={classes.heroContext}>
                     <div className={classes.heroHeader}>Guided Learning Tool Integration</div>
                     <div className={classes.heroText}>
-                        Learning Tool Development and Integration Made Easy
+                        Learning tool development and integration made easy.
                     </div>
                     <div className={classes.heroSubtext}>
                         Kickstart your understanding of Learning Tool Interoperability and how to implement these principles to create LTI compliant applications for the Canvas Learning Management System.

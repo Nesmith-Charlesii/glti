@@ -1,51 +1,47 @@
 import { createUseStyles } from "react-jss";
-import WebFont from "webfontloader";
-
-WebFont.load({
-    google: {
-        families: ["Raleway"]
-    }
-})
 
 export const useStyles = createUseStyles({
     heroContent: {
         display: "flex",
         alignItems: 'center',
         justifyContent: "space-between",
-        padding: "80px 152px",
+        padding: "112px 0px 70px 152px",
         borderBottom: "1px solid #CAC9CC",
+        position: "relative"
     },
     heroContext: {
         width: "629px",
         color: "#1E0C30"
     },
     heroHeader: {
-        fontSize: "44px",
-        // fontFamily: "Raleway",
+        fontSize: "48px",
+        // fontFamily: "Inter",
         fontWeight: 700,
-        marginBottom: "14px"
+        marginBottom: "20px"
     },
     heroText: {
-        fontFamily: "Raleway",
-        fontSize: "28px",
+        fontFamily: "Arial",
+        fontSize: "20px",
         fontWeight: 600,
-        marginBottom: "20px",
+        marginBottom: "0px",
         width: "89%"
     },
     heroSubtext: {
-        fontFamily: "Raleway",
+        fontFamily: "Inter",
         fontSize: "20px",
-        width: "92%"
+        width: "89%"
     },
     heroImage: {
-        '& svg': {
-            height: "200px",
-            width: "200px",
-            marginLeft: "20px"
+        position: "absolute",
+        right: 0,
+        zIndex: -1,
+        height: "500px",
+        '& img': {
+            height: "100%",
         }
     },
     quickstartContext: {
-        fontFamily: "Raleway",
+        fontFamily: "Inter",
     },
     quickstartHeader: {
         fontSize: "34px",
@@ -87,13 +83,13 @@ export const useStyles = createUseStyles({
         position: "relative"
     },
     overviewHeader: {
-        fontFamily: "Raleway",
+        fontFamily: "Inter",
         fontSize: "34px",
         fontWeight: 500,
         marginBottom: "21px"
     },
     overviewContent: {
-        fontFamily: "Raleway",
+        fontFamily: "Inter",
         fontSize: "18px",
         width: "550px",
         color: "#1E0C30",

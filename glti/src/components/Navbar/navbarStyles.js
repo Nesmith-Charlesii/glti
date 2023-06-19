@@ -8,8 +8,18 @@ WebFont.load({
 });
 
 export const useStyles = createUseStyles({
+    '@global': {
+        body: {
+            overflowX: "hidden",
+            marginRight: "auto",
+            marginLeft: "auto"
+
+        }
+    },
     navBar: {
         position: "fixed",
+        top: 0,
+        zIndex: 1,
         width: "100%",
         display: 'flex',
         alignItems: "center",
